@@ -1,0 +1,37 @@
+#!/bin/sh
+# postinst script
+# see: dh_installdeb(1)
+
+set -e
+
+case "$1" in
+    configure)
+
+    update-alternatives \
+        --install /usr/share/plymouth/themes/text.plymouth text.plymouth \
+        /usr/share/plymouth/themes/hamonikr-text/hamonikr-text.plymouth 300
+
+    update-alternatives \
+        --install /usr/share/plymouth/themes/default.plymouth default.plymouth \
+        /usr/share/plymouth/themes/hamonikr-logo/hamonikr-logo.plymouth 300
+
+    update-alternatives \
+        --set default.plymouth \
+        /usr/share/plymouth/themes/hamonikr-logo/hamonikr-logo.plymouth
+    
+    update-initramfs -u
+
+    ;;
+    abort-upgrade|abort-remove|abort-deconfigure)
+
+    ;;
+    triggered)
+
+    ;;
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+exit 0

@@ -1,0 +1,15 @@
+Source: hamonikr-plymouth-theme-hanla
+Section: admin
+Priority: optional
+Maintainer: Kevin Kim <chaeya@gmail.com>
+Standards-Version: 4.1.4
+
+Package: hamonikr-plymouth-theme-hanla
+Architecture: all
+Depends: plymouth-themes
+Conflicts: 
+Recommends: 
+Replaces: ubuntu-system-adjustments, mint-artwork, mint-artwork-common, mintsystem
+Homepage: https://hamonikr.org
+Description: hamonikr plymouth theme
+  하모니카 plymouth theme
