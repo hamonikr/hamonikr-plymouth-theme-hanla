@@ -1,4 +1,5 @@
-# hamonikr-plymouth-theme
+# hamonikr-plymouth-theme-hanla
+
 하모니카 plymouth Theme - hanla
 
 ## Install
