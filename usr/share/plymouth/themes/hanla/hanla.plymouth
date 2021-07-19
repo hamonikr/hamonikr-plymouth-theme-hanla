@@ -23,12 +23,12 @@ UseProgressBar=true
 UseAnimation=true
 
 [shutdown]
-UseProgressBar=false
-UseAnimation=false
+UseProgressBar=true
+UseAnimation=true
 
 [reboot]
-UseProgressBar=false
-UseAnimation=false
+UseProgressBar=true
+UseAnimation=true
 
 [updates]
 UseProgressBar=true
