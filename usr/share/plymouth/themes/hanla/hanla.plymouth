@@ -4,9 +4,9 @@ Description=based on spinfinity plymouth theme
 ModuleName=two-step
 
 [two-step]
-ImageDir=/usr/share/plymouth/themes/asspining
-BackgroundStartColor=0x000000
-BackgroundEndColor=0x000000
+ImageDir=/usr/share/plymouth/themes/hanla
+BackgroundStartColor=0x35383c
+BackgroundEndColor=0x35383c
 WatermarkHorizontalAlignment=0.5
 WatermarkVerticalAlignment=0.5
 HorizontalAlignment=0.5
@@ -15,8 +15,8 @@ ProgressBarHorizontalAlignment=0.5
 ProgressBarVerticalAlignment=0.8
 ProgressBarWidth=800
 ProgressBarHeight=5
-ProgressBarBackgroundColor=0x01000000
-ProgressBarForegroundColor=0xffffffff
+ProgressBarBackgroundColor=0x35383c
+ProgressBarForegroundColor=0xffffff
 
 [boot-up]
 UseProgressBar=true

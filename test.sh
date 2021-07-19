@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# remove first
+sudo update-alternatives --remove default.plymouth /usr/share/plymouth/themes/hanla/hanla.plymouth 
+sudo rm -rf /usr/share/plymouth/themes/hanla
+sudo cp -av usr/share/plymouth/themes/hanla /usr/share/plymouth/themes
+
 sudo update-alternatives \
     --install /usr/share/plymouth/themes/default.plymouth default.plymouth \
     /usr/share/plymouth/themes/hanla/hanla.plymouth 100
