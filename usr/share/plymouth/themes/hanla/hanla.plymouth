@@ -16,7 +16,7 @@ ProgressBarVerticalAlignment=0.95
 ProgressBarWidth=800
 ProgressBarHeight=5
 ProgressBarBackgroundColor=0x35383c
-ProgressBarForegroundColor=0xffffff
+ProgressBarForegroundColor=0x0cd5bb
 
 [boot-up]
 UseProgressBar=true
