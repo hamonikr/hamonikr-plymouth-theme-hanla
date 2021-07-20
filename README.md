@@ -2,6 +2,8 @@
 
 하모니카 plymouth Theme - hanla
 
+![screenshot](./plymouth-hanla.gif)
+
 ## Install
 
 ```
