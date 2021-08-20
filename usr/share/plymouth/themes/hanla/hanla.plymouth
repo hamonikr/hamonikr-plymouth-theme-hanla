@@ -5,17 +5,17 @@ ModuleName=two-step
 
 [two-step]
 ImageDir=/usr/share/plymouth/themes/hanla
-BackgroundStartColor=0x35383c
-BackgroundEndColor=0x35383c
+BackgroundStartColor=0x0e0e0e
+BackgroundEndColor=0x0e0e0e
 WatermarkHorizontalAlignment=0.5
 WatermarkVerticalAlignment=0.5
 HorizontalAlignment=0.5
 VerticalAlignment=0.55
 ProgressBarHorizontalAlignment=0.5
-ProgressBarVerticalAlignment=0.95
+ProgressBarVerticalAlignment=1.0
 ProgressBarWidth=800
 ProgressBarHeight=5
-ProgressBarBackgroundColor=0x35383c
+ProgressBarBackgroundColor=0x0e0e0e
 ProgressBarForegroundColor=0x0cd5bb
 
 [boot-up]
@@ -23,11 +23,11 @@ UseProgressBar=true
 UseAnimation=true
 
 [shutdown]
-UseProgressBar=true
+UseProgressBar=false
 UseAnimation=true
 
 [reboot]
-UseProgressBar=true
+UseProgressBar=false
 UseAnimation=true
 
 [updates]
