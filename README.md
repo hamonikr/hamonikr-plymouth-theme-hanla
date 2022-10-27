@@ -27,6 +27,12 @@ plymouth module 이 없어서 제대로 실행되지 않는 문제를 해결하�
 sudo apt install --reinstall  plymouth-themes
 ```
 
+#### 새로 바꾼 테마가 적용되지 않을 때
+아래 명령으로 커널 이미지를 새로 생성한다.
+```
+sudo update-initramfs -u -k all
+```
+
 ## plymouth two-step module sources 
 
 ref : https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/7/html/desktop_migration_and_administration_guide/plymouth
