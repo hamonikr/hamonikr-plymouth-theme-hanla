@@ -17,6 +17,9 @@ case "$1" in
     
     update-initramfs -u
 
+    # LMDE 5
+    [ -x "/usr/sbin/plymouth-set-default-theme" ] && plymouth-set-default-theme -R hanla
+
     ;;
     abort-upgrade|abort-remove|abort-deconfigure)
 

@@ -1,3 +1,9 @@
+hamonikr-plymouth-theme-hanla (2.0.1) stable; urgency=medium
+
+  * Support LMDE 5
+
+ -- HamoniKR <pkg@hamonikr.org>  Fri, 18 Nov 2022 00:48:39 +0900
+
 hamonikr-plymouth-theme-hanla (2.0.0) stable; urgency=medium
 
   * Apply new theme (black and text)
